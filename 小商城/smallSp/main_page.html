@@ -18,23 +18,41 @@
 #logo{
     width: 980px; height: 70px; margin: auto;
 }
-#icon_img{ margin-left: 30px;width:140px;height: 120px;}
-.logo_left{float:left;width:277px; margin-right:41px; }
+#icon_img{ margin-left: 30px;width:80px;height: 60px;}
+.logo_left{float:left;width:125px; margin-right:41px; }
 
 .log_center{float: left; width:277px;margin-right:41px;}
-.search{ margin-top:13px; height: 29px;background:url(../imgs/search_icon.webp) no-repeat;}
-.search_text{float: left;width: 312px;padding-left: 27px;margin-top: 3px;}
-.search_btn{float: left;}
-.input_text{width:300px;height: 23px;font-size: 12px;color: #949494;border: none; background: none; line-height: 23px;}
-.hottext{color:#949494; line-height: 23px; font-size:12px; color: 949494;border: none;background: none;line-height: 23px;}
+.search{ margin-top:13px; height: 29px;}
+.search_text{float:left;width: 312px;padding-left: 27px;margin-top: 3px;}
+.search_btn img{margin-left:  -140px;width : 20px;height: 20px;margin-top: 5px;}
+.input_text{width:300px;height: 23px;font-size: 12px;color: #949494; background:#fff; line-height: 23px;margin-left: 200px;border:2px solid #444;}
+.hottext{color:#949494; line-height: 23px; font-size:12px;  border:2px;background:#fff;line-height: 25px;}
 .hottext a {color: #5CA100;line-height: 24px;}
-.logo_right{float:right;width: 288px;height: 70px;margin-top: -50px ;margin-left: 100px;}
+.logo_right{float:right;width: 288px;height: 70px;margin-top: -50px ;}
 /* ===============================MENU============================================ */
 #menu{margin-top: 10px; margin: auto;width: 980px;height: 41px;overflow: hidden;}
 .shoppingcar{float: left; width: 140px;height: 35px; background: url(../imgs/shopingcar.jpg) no-repeat;color: #fff;padding: 10px 0 0 42px; }
-.shoppingcar a{ color: black;}
-.meun_box{float:left;margin-left: 60px;}
-.meun_box li{float :left; width: 55px;margin-top: 17px; text-align: center; background:url(../imgs/menu_fgx.jpg) right center  no-repeat;}
+.shoppingcar a{ color: black;text-decoration: none;}
+.menu_box{float:left;margin-left: 60px;margin-top: -15px;}
+.menu_lis{height: 30px;list-style: none;}
+.menu_lis li{float :left; width: 65px;padding-top: -50px;text-align: center;height: 25px;vertical-align: middle;}
+.menu_lis li a{ text-decoration: none;font-size: 20px;vertical-align: middle;border: 0px;}
+/* ================================Banner_top===========================================================
+ */
+ #banner{background: url(../imgs/banner.webp) repeat-x; margin-top: 60px;}
+ .banner_box{ width: 980px; height: 369px; margin:auto;background-color:beige}
+ .banner_pic{ float: left; width: 720px; height: 369px; text-align: left;}
+ .banner_pic img{width: 720px;}
+ .banner_right{float: right ;width: 247px;}
+ .banner_right_top img {margin-top: 15px;height: 140px;width:247px;margin-left: -10px;padding-left: 0px;}
+ .banner_right_down{width: 30px;}
+ .banner_right_down ul{ width:200px;height:200px;margin-top: 0px;display:block;margin-left: -20px;}
+ .banner_right_down li{ margin-left: 10px;padding-left: 12px;background: url(../imgs/);list-style: none;}
+ .banner_right_down li a{color:#444}
+ .banner_right_down li a span{color: #a1028a;}
+ .moving_title{width: 30px;margin-top: 0px;}
+ .moving_title img {width:30px;height:30px;float: left;}
+
     </style>
     
 </head>
@@ -58,34 +76,59 @@
                 <div class="search_text">
                     <input type="text" value="请输入产品名称和订单号" class="input_text"/>
                 </div>
-                <div class="search_btn"><a href="#"><img src="/Users/liujiaqi/-/小商城/imgs/search_icon.webp" style="border:0px;height: 19.5px;width: 20px;"></a></div>
+                <div class="search_btn"><a href="#"><img src="/Users/liujiaqi/-/小商城/imgs/search_icon.webp" ></a></div>
             </form></div>
-            <div class="hottext">热门搜索&nbsp; <a href="#">新品</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">限时特价</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">防晒隔离</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">超值换购</a></div>
-            <div class="logo_right"><img src="/Users/liujiaqi/-/小商城/imgs/telephone.webp" width="100px" height="100px"></div>
+            <div class="hottext">热门搜索:&nbsp;&nbsp;&nbsp;&nbsp;  <a href="#">新品</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">限时特价</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">防晒隔离</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">超值换购</a></div>
+            <!-- <div class="logo_right"><img src="/Users/liujiaqi/-/小商城/imgs/telephone.webp" ></div> -->
             <!-- ----------------------------- MENU----------------------------------- -->
                 <div id="menu">
                     <div class="shoppingcar"><a href="#">购物车中有0件商品</a></div>
-                    <div class="menu_box">
-                        <ul>
-                            <li><a href="#"><img src="imges/meun1.jpg" border="0" /></a></li>
-                            <li><a href="#"><img src="imges/meun1.jpg" border="0" /></a></li>
-                            <li><a href="#"><img src="imges/meun1.jpg" border="0" /></a></li>
-                            <li><a href="#"><img src="imges/meun1.jpg" border="0" /></a></li>
-                            <li><a href="#"><img src="imges/meun1.jpg" border="0" /></a></li>
-                            <li><a href="#"><img src="imges/meun1.jpg" border="0" /></a></li>
-                            <li style="background:none;"><a href="#"><img src="imges/meun1.jpg" border="0"></a></li>
-                            <li style="background:none;"><a href="#"><img src="imges/meun1.jpg" border="0"></a></li>
-                            <li style="background:none;"><a href="#"><img src="imges/meun1.jpg" border="0"></a></li>
-                            <li style="background:none;"><a href="#"><img src="imges/meun1.jpg" border="0"></a></li>
+                    <div class="menu_box">s
+                        <ul class="menu_lis">
+                            <!-- <span><a href="#">女装</a></span>
+                            <span><a href="#">男装</a></span>
+                            <span><a href="#">化妆品</a></span> 
+                            <span><a href="#">饰品</a></span>
+                            <span><a href="#">女包</a></span>
+                            <span><a href="#">名表</a></span> -->
+                            <li style="border: 0px;"><a href="#">｜</a>女装</li>
+                            <li style="border: 0px;"><a href="#">｜</a>男装</li>
+                            <li style="border: 0px;"><a href="#">｜</a>化妆品</li>
+                            <li style="border: 0px;"><a href="#">｜</a>饰品</li>
+                            <li style="border: 0px;"><a href="#">｜</a>女包</li>
+                            <li style="border: 0px;"><a href="#">｜</a>名表</li>
+                            <li style="border: 0px solid #666;"><a href="#"></a>忧伤团</li>
+                            <li style="border: 0px solid #666;"><a href="#"></a>特卖会</li>
+                            <li style="border: 0px solid #666;"><a href="#"></a>品牌馆</li>
+                         
                         </ul>
+                    </div>
+                </div>
                         <!-- -------------------------------banner_top----------------------------------------------- -->
                         <div id="banner">
                             <div class="banner_box">
-                                <div class="banner_pic"><img src="images/banner." alt=""></div>
+                                <div class="banner_pic"><a href="#"><img src="/Users/liujiaqi/--2/小商城/imgs/banner_img.webp" style="height: 360px;"/></a></div>
+                                <div class="banner_right">
+                                    <div class="banner_right_top"><a href="#"><img src="/Users/liujiaqi/--2/小商城/imgs/event_banner.webp"></a></div>
+                                    <div class="banner_right_down">
+                                        <div class="moving_title"><img src="/Users/liujiaqi/--2/小商城/imgs/news_.webp"></div>
+                                        <ul >
+                                            <li>
+                                                <a href="#"><span>国庆大促销，纯牛皮钱包免费换！</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">身体护理系列满199加1元换购飘柔！</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span>YOUSOO九月新起点，价值99元免费送！</span></a>
+                                            </li>
+                                            <li><a href="#">喜迎国庆，化妆百元红包大放送</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+            
         </div>
     </div>
 </body>
